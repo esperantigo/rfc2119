@@ -1,0 +1,348 @@
+
+<!-- saved from url=(0037)https://www.ietf.org/rfc/rfc2119.html -->
+<html data-darkreader-mode="dynamic" data-darkreader-scheme="dark" data-darkreader-proxy-injected="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula {
+    filter: invert(100%) hue-rotate(180deg) brightness(150%) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #242729;
+   --darkreader-neutral-text: #ffffff;
+   --darkreader-selection-background: #0073ff;
+   --darkreader-selection-text: #ffffff;
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: #242729 !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: #242729;
+}
+html, body {
+    border-color: #ada18d;
+    color: #ffffff;
+}
+a {
+    color: #4ddaff;
+}
+table {
+    border-color: #7e898d;
+}
+mark {
+    color: #ffffff;
+}
+::placeholder {
+    color: #fffff2;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #606600 !important;
+    color: #ffffff !important;
+}
+* {
+    scrollbar-color: #686f73 #303536;
+}
+::selection {
+    background-color: #0073ff !important;
+    color: #ffffff !important;
+}
+::-moz-selection {
+    background-color: #0073ff !important;
+    color: #ffffff !important;
+}
+}</style><meta name="darkreader" content="43a5db289d3e4733b2240a88be0af392"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #9c7100 !important;
+    border-color: #edbd00 !important;
+    color: #ffffff !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #296e84 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #16576b !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #2d3032 !important;
+}
+.tou-uknfeu {
+    background-color: #65420e !important;
+}
+.tou-6i3zyv {
+    background-color: #368ba8 !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}</style></head><body><pre>Network Working Group                                         S. Bradner
+Request for Comments: 2119                            Harvard University
+BCP: 14                                                       March 1997
+Category: Best Current Practice
+
+
+        <span class="h1">Key words for use in RFCs to Indicate Requirement Levels</span>
+
+Status of this Memo
+
+   This document specifies an Internet Best Current Practices for the
+   Internet Community, and requests discussion and suggestions for
+   improvements.  Distribution of this memo is unlimited.
+
+Abstract
+
+   In many standards track documents several words are used to signify
+   the requirements in the specification.  These words are often
+   capitalized.  This document defines these words as they should be
+   interpreted in IETF documents.  Authors who follow these guidelines
+   should incorporate this phrase near the beginning of their document:
+
+      The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+      NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+      "OPTIONAL" in this document are to be interpreted as described in
+      <a href="https://www.ietf.org/rfc/rfc2119">RFC 2119</a>.
+
+   Note that the force of these words is modified by the requirement
+   level of the document in which they are used.
+
+<span class="h2"><a class="selflink" id="section-1" href="https://www.ietf.org/rfc/rfc2119.html#section-1">1</a>. MUST  </span> This word, or the terms "REQUIRED" or "SHALL", mean that the
+   definition is an absolute requirement of the specification.
+
+<span class="h2"><a class="selflink" id="section-2" href="https://www.ietf.org/rfc/rfc2119.html#section-2">2</a>. MUST NOT  </span> This phrase, or the phrase "SHALL NOT", mean that the
+   definition is an absolute prohibition of the specification.
+
+<span class="h2"><a class="selflink" id="section-3" href="https://www.ietf.org/rfc/rfc2119.html#section-3">3</a>. SHOULD  </span> This word, or the adjective "RECOMMENDED", mean that there
+   may exist valid reasons in particular circumstances to ignore a
+   particular item, but the full implications must be understood and
+   carefully weighed before choosing a different course.
+
+<span class="h2"><a class="selflink" id="section-4" href="https://www.ietf.org/rfc/rfc2119.html#section-4">4</a>. SHOULD NOT  </span> This phrase, or the phrase "NOT RECOMMENDED" mean that
+   there may exist valid reasons in particular circumstances when the
+   particular behavior is acceptable or even useful, but the full
+   implications should be understood and the case carefully weighed
+   before implementing any behavior described with this label.
+
+
+
+
+
+<span class="grey">Bradner                  Best Current Practice                  [Page 1]</span></pre>
+<hr class="noprint"><!--NewPage--><pre class="newpage"><span id="page-2"></span>
+<span class="grey"><a href="https://www.ietf.org/rfc/rfc2119">RFC 2119</a>                     RFC Key Words                    March 1997</span>
+
+
+<span class="h2"><a class="selflink" id="section-5" href="https://www.ietf.org/rfc/rfc2119.html#section-5">5</a>. MAY  </span> This word, or the adjective "OPTIONAL", mean that an item is
+   truly optional.  One vendor may choose to include the item because a
+   particular marketplace requires it or because the vendor feels that
+   it enhances the product while another vendor may omit the same item.
+   An implementation which does not include a particular option MUST be
+   prepared to interoperate with another implementation which does
+   include the option, though perhaps with reduced functionality. In the
+   same vein an implementation which does include a particular option
+   MUST be prepared to interoperate with another implementation which
+   does not include the option (except, of course, for the feature the
+   option provides.)
+
+<span class="h2"><a class="selflink" id="section-6" href="https://www.ietf.org/rfc/rfc2119.html#section-6">6</a>. Guidance in the use of these Imperatives</span>
+
+   Imperatives of the type defined in this memo must be used with care
+   and sparingly.  In particular, they MUST only be used where it is
+   actually required for interoperation or to limit behavior which has
+   potential for causing harm (e.g., limiting retransmisssions)  For
+   example, they must not be used to try to impose a particular method
+   on implementors where the method is not required for
+   interoperability.
+
+<span class="h2"><a class="selflink" id="section-7" href="https://www.ietf.org/rfc/rfc2119.html#section-7">7</a>. Security Considerations</span>
+
+   These terms are frequently used to specify behavior with security
+   implications.  The effects on security of not implementing a MUST or
+   SHOULD, or doing something the specification says MUST NOT or SHOULD
+   NOT be done may be very subtle. Document authors should take the time
+   to elaborate the security implications of not following
+   recommendations or requirements as most implementors will not have
+   had the benefit of the experience and discussion that produced the
+   specification.
+
+<span class="h2"><a class="selflink" id="section-8" href="https://www.ietf.org/rfc/rfc2119.html#section-8">8</a>. Acknowledgments</span>
+
+   The definitions of these terms are an amalgam of definitions taken
+   from a number of RFCs.  In addition, suggestions have been
+   incorporated from a number of people including Robert Ullmann, Thomas
+   Narten, Neal McBurnett, and Robert Elz.
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="grey">Bradner                  Best Current Practice                  [Page 2]</span></pre>
+<hr class="noprint"><!--NewPage--><pre class="newpage"><span id="page-3"></span>
+<span class="grey"><a href="https://www.ietf.org/rfc/rfc2119">RFC 2119</a>                     RFC Key Words                    March 1997</span>
+
+
+<span class="h2"><a class="selflink" id="section-9" href="https://www.ietf.org/rfc/rfc2119.html#section-9">9</a>. Author's Address</span>
+
+      Scott Bradner
+      Harvard University
+      1350 Mass. Ave.
+      Cambridge, MA 02138
+
+      phone - +1 617 495 3864
+
+      email - sob@harvard.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bradner                  Best Current Practice                  [Page 3]
+</pre>
+</body></html>
